@@ -1,6 +1,6 @@
 %define name rox-lib
 %define version 2.0.4
-%define release %mkrel 1
+%define release %mkrel 2
 %define oname rox-lib2
 Summary: Shared code for ROX applications
 Name: %{name}
@@ -36,8 +36,8 @@ chmod 644 */*.xml
 
 %install
 rm -rf $RPM_BUILD_ROOT
-mkdir -p %buildroot/%_libdir
-cp -r ROX-Lib2 %buildroot/%_libdir
+mkdir -p %buildroot/%_prefix/lib
+cp -r ROX-Lib2 %buildroot/%_prefix/lib
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -45,5 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %doc ROX-Lib2/Help/README
-%_libdir/ROX-Lib2
+%_prefix/lib/ROX-Lib2
 
