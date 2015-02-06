@@ -1,6 +1,6 @@
 %define name rox-lib
 %define version 2.0.6
-%define release %mkrel 1
+%define release 2
 %define oname rox-lib2
 Summary: Shared code for ROX applications
 Name: %{name}
