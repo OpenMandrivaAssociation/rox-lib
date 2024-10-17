@@ -9,7 +9,7 @@ Release: %{release}
 Source0: http://prdownloads.sourceforge.net/rox/%{oname}-%{version}.tar.bz2
 License: LGPL
 Group: Graphical desktop/Other
-URL: http://rox.sourceforge.net/rox_lib.html
+URL: https://rox.sourceforge.net/rox_lib.html
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildArch: noarch
 Requires: pygtk2.0
