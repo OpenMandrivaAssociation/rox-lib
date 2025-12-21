@@ -15,6 +15,7 @@ BuildArch: noarch
 Requires: pygtk2.0
 Requires: rox
 
+BuildRequires:	make
 %description
 There is quite a lot of code which is needed by many ROX applications -- for
 example: save boxes, menus and options.
